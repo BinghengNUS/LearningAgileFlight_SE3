@@ -7,3 +7,21 @@ Animation  |      Method   |      Animation
 
 
 Please find out more details in our paper (ICRA 2023): https://ieeexplore-ieee-org.libproxy1.nus.edu.sg/document/10160712
+
+## Table of contents
+1. [Project Overview](#project-Overview)
+2. [Dependency Packages](#Dependency-Packages)
+3. [How to Use](#How-to-Use)
+4. [Contact Us](#Contact-Us)
+
+## 1. Project Overview
+Agile flights of autonomous quadrotors in cluttered environments require constrained motion planning and control subject to translational and rotational dynamics. Traditional model-based methods typically demand complicated design and heavy computation. In this paper, we develop a novel deep reinforcement learning-based method that tackles the challenging task of flying through a dynamic narrow gate. We design a model predictive controller with its adaptive tracking references parameterized by a deep neural network (DNN). These references include the traversal time and the quadrotor SE(3) traversal pose that encourage the robot to fly through the gate with maximum safety margins from various initial conditions.
+
+## 2. Dependency Packages
+Please make sure that the following packages have already been installed before running the source code.
+* CasADi: version 3.5.5 Info: https://web.casadi.org/
+* Numpy: version 1.23.0 Info: https://numpy.org/
+* Pytorch: version 1.12.0+cu116 Info: https://pytorch.org/
+* Matplotlib: version 3.3.0 Info: https://matplotlib.org/
+* Python: version 3.9.12 Info: https://www.python.org/
+
