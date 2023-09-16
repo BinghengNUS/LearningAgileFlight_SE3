@@ -25,3 +25,15 @@ Please make sure that the following packages have already been installed before 
 * Matplotlib: version 3.3.0 Info: https://matplotlib.org/
 * Python: version 3.9.12 Info: https://www.python.org/
 
+## 3. How to Use
+First and foremost, the training process is both efficient and straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below.
+
+1.  Run the Python file '**nn_train.py**' to pre-train the 1st DNN via supervised learning.
+2.  Run the Python file '**deep_learning.py**' to train the 1st DNN (pretained in Step 1) via reinforcement learning.
+3.  Run the Python file '**nn_train_2**' to train the 2nd DNN via imitation learning (i.e., imitating the outputs of the 1st DNN).
+4.  Run the Python file '**main.py**' to evaluate the trained 2nd DNN in the challenging task of flying through a dynamic narrow gate.
+
+## 4. Contact Us
+If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
+* Name: Mr. Bingheng Wang
+* Email: wangbingheng@u.nus.edu
