@@ -11,11 +11,11 @@ from quad_moving import *
 #gate1 = gate(gate_point)
 
 # sample the input
-Init_pos   = np.load('start_point.npy')
-Final_pos  = np.load('Final_point.npy')
-Init_angle = np.load('initial_angle.npy')
-inputs = nn_sample(init_pos=Init_pos,final_pos=Final_pos,init_angle=Init_angle)
-# inputs = nn_sample()
+# Init_pos   = np.load('start_point.npy')
+# Final_pos  = np.load('Final_point.npy')
+# Init_angle = np.load('initial_angle.npy')
+# inputs = nn_sample(init_pos=Init_pos,final_pos=Final_pos,init_angle=Init_angle)
+inputs = nn_sample()
 start_point = inputs[0:3]
 final_point = inputs[3:6]
 # np.save('start_point',start_point)
