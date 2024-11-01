@@ -36,5 +36,5 @@ First and foremost, the training process is both efficient and straightforward t
 
 ## 4. Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
-* Name: Mr. Bingheng Wang
+* Name: Dr. Bingheng Wang
 * Email: wangbingheng@u.nus.edu
